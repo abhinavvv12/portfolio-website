@@ -6,7 +6,7 @@ function Footer() {
       border-slate-800
       py-8
       text-center
-      text-slate-500
+      text-white
       "
     >
       © 2026 Abhinav Raparthi
