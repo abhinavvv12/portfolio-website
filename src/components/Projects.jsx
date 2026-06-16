@@ -38,7 +38,7 @@ function Projects() {
             rounded-2xl
             p-6
             border
-            border-slate-800
+            border-slate-900
             hover:border-white
             hover:-translate-y-3
             transition-all
@@ -49,7 +49,7 @@ function Projects() {
               {project.title}
             </h3>
 
-            <p className="text-slate-400 mb-6">
+            <p className="text-white mb-6">
               {project.desc}
             </p>
 
@@ -57,7 +57,7 @@ function Projects() {
               <a
                 href={project.live}
                 target="_blank"
-                className="text-cyan-400"
+                className="text-white"
               >
                 Live
               </a>
@@ -65,7 +65,7 @@ function Projects() {
               <a
                 href={project.github}
                 target="_blank"
-                className="text-cyan-400"
+                className="text-white"
               >
                 Github
               </a>

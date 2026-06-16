@@ -1,14 +1,14 @@
 function Stats() {
   const stats = [
-    { value: "300+", label: "DSA Problems" },
-    { value: "20+", label: "Repositories" },
-    { value: "3+", label: "Projects" },
+    { value: "300+", label: "DSA Problems on Leetcode and GFG" },
+    { value: "20+", label: "Github Repositories" },
+    { value: "3+", label: "Deployed Projects" },
   ];
 
   return (
     <section className="max-w-7xl mx-auto px-6 py-20">
 
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-10">
 
         {stats.map((item) => (
           <div

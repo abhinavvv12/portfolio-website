@@ -46,8 +46,6 @@ function Hero() {
             "
           >
             Hi,
-            <br />
-
             I'm
 
             <span className="text-white">
