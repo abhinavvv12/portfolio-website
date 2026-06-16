@@ -17,7 +17,18 @@ function Contact() {
 
         <a
           href="mailto:abhinav.r1296@gmail.com"
-          className="bg-white text-black px-6 py-3 rounded-lg"
+          className="
+          bg-white
+          text-black
+          px-6
+          py-3
+          rounded-lg
+          transition-all
+          duration-300
+          hover:-translate-y-1
+          hover:scale-105
+          hover:shadow-[0_0_20px_rgba(255,255,255,0.35)]
+          "
         >
           Email
         </a>
@@ -25,7 +36,18 @@ function Contact() {
         <a
           href="https://github.com/abhinavvv12"
           target="_blank"
-          className="border border-white px-6 py-3 rounded-lg"
+          className="
+            bg-white
+            text-black
+            px-6
+            py-3
+            rounded-lg
+            transition-all
+            duration-300
+            hover:-translate-y-1
+            hover:scale-105
+            hover:shadow-[0_0_20px_rgba(255,255,255,0.35)]
+            "
         >
           GitHub
         </a>
@@ -33,7 +55,18 @@ function Contact() {
         <a
           href="https://linkedin.com"
           target="_blank"
-          className="border border-white px-6 py-3 rounded-lg"
+          className="
+            bg-white
+            text-black
+            px-6
+            py-3
+            rounded-lg
+            transition-all
+            duration-300
+            hover:-translate-y-1
+            hover:scale-105
+            hover:shadow-[0_0_20px_rgba(255,255,255,0.35)]
+            "
         >
           LinkedIn
         </a>

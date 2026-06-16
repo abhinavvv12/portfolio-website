@@ -8,7 +8,16 @@ function Education() {
 
       <div className="space-y-8">
 
-        <div className="border-l-2 border-white pl-6">
+        <div
+          className="
+          border-l-2
+          border-cyan-400
+          pl-6
+          py-2
+          transition-all
+          duration-300
+          hover:translate-x-2  "
+        >
           <h3 className="text-2xl font-semibold">
             B.Tech  CSE-AIML
           </h3>
@@ -22,7 +31,14 @@ function Education() {
           </p>
         </div>
 
-        <div className="border-l-2 border-cyan-400 pl-6">
+        <div className="
+          border-l-2
+          border-cyan-400
+          pl-6
+          py-2
+          transition-all
+          duration-300
+          hover:translate-x-2  ">
           <h3 className="text-2xl font-semibold">
             Intermediate
           </h3>
@@ -36,7 +52,14 @@ function Education() {
           </p>
         </div>
 
-        <div className="border-l-2 border-cyan-400 pl-6">
+        <div className="
+          border-l-2
+          border-cyan-400
+          pl-6
+          py-2
+          transition-all
+          duration-300
+          hover:translate-x-2  ">
           <h3 className="text-2xl font-semibold">
             SSC - Telangana Board
           </h3>

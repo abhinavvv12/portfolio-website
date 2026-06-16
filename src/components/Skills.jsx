@@ -49,6 +49,11 @@ function Skills() {
             border-zinc-700
             rounded-2xl
             p-8
+            transition-all
+            duration-300
+            hover:-translate-y-2
+            hover:border-cyan-400
+            hover:shadow-[0_0_25px_rgba(34,211,238,0.15)]
             "
           >
 
@@ -63,13 +68,18 @@ function Skills() {
                 <span
                   key={skill}
                   className="
-                  px-4
-                  py-2
-                  rounded-full
-                  bg-black
-                  border
-                  border-zinc-700
-                  "
+                    px-4
+                    py-2
+                    rounded-full
+                    bg-black
+                    border
+                    border-zinc-700
+                    transition-all
+                    duration-300
+                    hover:border-cyan-400
+                    hover:text-cyan-400
+                    hover:scale-105
+                    "
                 >
                   {skill}
                 </span>

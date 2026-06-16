@@ -14,20 +14,44 @@ function Stats() {
           <div
             key={item.label}
             className="
+            group
             bg-zinc-950
             border
             border-zinc-800
             rounded-2xl
             p-8
             text-center
-            transition
+            transition-all
+            duration-500
+            hover:-translate-y-3
+            hover:border-cyan-400
+            hover:bg-zinc-900
+            hover:shadow-[0_0_30px_rgba(34,211,238,0.2)]
             "
           >
-            <h2 className="text-4xl  font-bold text-white">
+            <h2
+              className="
+              text-4xl
+              font-bold
+              text-white
+              transition-all
+              duration-500
+              group-hover:text-cyan-400
+              group-hover:scale-110
+              "
+            >
               {item.value}
             </h2>
 
-            <p className="mt-3 text-zinc-400">
+            <p
+              className="
+              mt-3
+              text-zinc-400
+              transition-colors
+              duration-500
+              group-hover:text-zinc-200
+              "
+            >
               {item.label}
             </p>
           </div>
