@@ -8,7 +8,7 @@ function Stats() {
   return (
     <section className="max-w-7xl mx-auto px-6 py-20">
 
-      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-10">
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-3 md:gap-10">
 
         {stats.map((item) => (
           <div
